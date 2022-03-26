@@ -12,6 +12,8 @@ public class Dialogue : MonoBehaviour
     }
     private void PushDialogue(DialogueData dialogue)
     {
+        if (dialogue == null) return;
+        
         DialogSystem.Instance.EnqueueDialogue(dialogue.DialogueElements);
     }
 

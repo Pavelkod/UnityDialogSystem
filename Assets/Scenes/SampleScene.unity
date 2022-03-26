@@ -343,10 +343,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1363331177}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d7e56135e6b3454e8e32fecefaf6c56, type: 3}
+  m_Script: {fileID: 11500000, guid: ae030192af312cb40829658dafb2d333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: {fileID: 11400000, guid: d3fb556bbdfe5414b94b39aabf401969, type: 2}
 --- !u!4 &1363331179
 Transform:
   m_ObjectHideFlags: 0
@@ -373,7 +372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74381eadafdbbcf45a823f0c6b144270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _path: Assets/SerializedDialogs/OrdinaryDialogue_2022_03_24__22_05_03.json
+  _path: https://raw.githubusercontent.com/Pavelkod/UnityDialogSystem/main/Assets/SerializedDialogs/DialogueEdit_2022_03_27__00_29_05.json
 --- !u!1 &1916191867
 GameObject:
   m_ObjectHideFlags: 0

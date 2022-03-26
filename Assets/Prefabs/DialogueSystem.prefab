@@ -4928,7 +4928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7951562911166572784}
   - component: {fileID: 7951562911166572785}
-  - component: {fileID: 3448893549190995985}
+  - component: {fileID: 1567496085051488302}
   m_Layer: 0
   m_Name: DialogueSystem
   m_TagString: Untagged
@@ -4975,7 +4975,7 @@ MonoBehaviour:
     dialogueWindowPrefab: {fileID: 8854189143072296450, guid: f9082aa2d4b88074296afb8d6cea23e0, type: 3}
   _canvas: {fileID: 1141415934995434325}
   _particles: {fileID: 6639336614208205574}
---- !u!114 &3448893549190995985
+--- !u!114 &1567496085051488302
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4984,7 +4984,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7951562911166572787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9881e6ab11e359b459801c6f02f213b5, type: 3}
+  m_Script: {fileID: 11500000, guid: f5c6c4b2f19573d479fd05b6df3f4774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _baseDir: UI
+  _spriteFallback: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
