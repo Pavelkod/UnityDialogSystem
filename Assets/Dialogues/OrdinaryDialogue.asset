@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c93723b82cbf6045a7f431393150eca, type: 3}
+  m_Name: OrdinaryDialogue
+  m_EditorClassIdentifier: 
+  DialogueElements:
+  - Title: Warrior
+    Body: Speedily say has suitable disposal add boy. On forth doubt miles of child.
+      Exercise joy man children rejoiced. Yet uncommonly his ten who diminution astonished.
+      Demesne new manners savings staying had. Under folly balls death own point
+      now men. Match way these she avoid see death. She whose drift their fat off.
+    TextColorHex: '#aa0000'
+    BackgroundUrl: RectPanel
+    TitleBackGroundUrl: Button
+    Type: 0
+    Buttons:
+    - ButtonName: Next
+      buttonTextColorHex: '#cccccc'
+      ActionId: 0
+      BackgroundUrl: Button
+  - Title: Scary frog
+    Body: 'Certainty determine at of arranging perceived situation or. Or wholly
+      pretty county in oppose. Favour met itself wanted settle put garret twenty.
+      In astonished apartments resolution so an it. Unsatiable on by contrasted to
+      reasonable companions an. On otherwise no admitting to suspicion furniture
+      it.
+
+'
+    TextColorHex: 
+    BackgroundUrl: RectPanel
+    TitleBackGroundUrl: Button
+    Type: 1
+    Buttons:
+    - ButtonName: Next
+      buttonTextColorHex: 
+      ActionId: 0
+      BackgroundUrl: 
+  - Title: Warrior
+    Body: 'bla bla bla
+
+'
+    TextColorHex: 445566
+    BackgroundUrl: RectPanel
+    TitleBackGroundUrl: Button
+    Type: 1
+    Buttons:
+    - ButtonName: Next
+      buttonTextColorHex: 
+      ActionId: 0
+      BackgroundUrl: 
+  - Title: System Message
+    Body: 'Hp ho ho
+
+'
+    TextColorHex: 0000000
+    BackgroundUrl: BigSquarePanel
+    TitleBackGroundUrl: Button
+    Type: 2
+    Buttons:
+    - ButtonName: Next
+      buttonTextColorHex: 222222222222
+      ActionId: 0
+      BackgroundUrl: 
+  - Title: Small nice dialog
+    Body: Just for test, you know
+    TextColorHex: 11111111
+    BackgroundUrl: SquarePanel
+    TitleBackGroundUrl: Button
+    Type: 3
+    Buttons:
+    - ButtonName: Next
+      buttonTextColorHex: 
+      ActionId: 0
+      BackgroundUrl: 
+    - ButtonName: End
+      buttonTextColorHex: 
+      ActionId: 1
+      BackgroundUrl: Button
